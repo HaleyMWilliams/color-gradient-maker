@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #808080, #000000);
+  min-height: 97vh;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding-top: 1rem;
+  letter-spacing: 0.25em;
+  color: white;
+  text-shadow: 7px 7px 10px black;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: "Cutive Mono", monospace;
+  color: white;
+  font-weight: lighter;
+}
+
+div {
+  padding: 0.25em;
+}
