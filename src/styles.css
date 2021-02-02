@@ -62,10 +62,23 @@ h4 {
 
 input {
   margin: 0.5em;
+  border: none;
 }
 
 h4 {
   margin: 0.5em;
+}
+
+button {
+  padding: 0.8em;
+  background-color: rgb(165, 153, 153);
+  border: 1px grey solid;
+  border-radius: 30px;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: grey;
 }
 
 @media only screen and (max-width: 350px) {
