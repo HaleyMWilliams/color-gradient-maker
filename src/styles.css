@@ -4,29 +4,39 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #06bcea, #31e375);
+  background-image: linear-gradient(#7628eb, 60%, #ba94cc);
   text-align: center;
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  margin: 0;
   background-repeat: no-repeat;
 }
+
 header {
-  box-shadow: 0 0 30px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 h1 {
-  padding: 1.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  max-width: 40%;
   letter-spacing: 0.25em;
   color: white;
   text-shadow: 7px 7px 10px rgb(90, 88, 88);
   font-family: "Josefin Sans", sans-serif;
   line-height: 1.5em;
+  box-shadow: 0 0 60px black;
 }
 
 h3 {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h4 {
@@ -39,21 +49,19 @@ h4 {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 3rem;
-  padding-bottom: 1rem;
 }
 
 .gradientDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1em;
-  background-color: white;
+  margin: 1.5em;
   border: 1px, white, solid;
   border-radius: 30px;
-  min-width: 18em;
-  max-width: 18em;
-  min-height: 17em;
-  box-shadow: 0 0 20px grey;
+  min-width: 17em;
+  max-width: 17em;
+  min-height: 16em;
+  box-shadow: 0 0 20px black;
 }
 
 .innerContent h3 {
@@ -71,14 +79,35 @@ h4 {
 
 button {
   padding: 0.8em;
-  background-color: rgb(165, 153, 153);
-  border: 1px grey solid;
+  background-color: #7628eb;
+  border: 1px #7628eb solid;
   border-radius: 30px;
   color: white;
+  font-weight: 500;
 }
 button:hover {
   cursor: pointer;
-  background-color: grey;
+  background-color: #ba94cc;
+  border: 1px #ba94cc solid;
+  font-weight: 500;
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 7rem;
+}
+
+p {
+  max-height: 1rem;
+}
+
+footer p,
+a {
+  color: #5c09d8;
+  font-family: "Cutive Mono", monospace;
 }
 
 @media only screen and (max-width: 350px) {

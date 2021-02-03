@@ -57,20 +57,24 @@ function setHorizontalGradient() {
 }
 
 function resetHorizontalGradient() {
-  horizontalBackground.style.background = 'white';
+  horizontalBackground.style.background = '';
   horizontalCSS.innerText = '';
+  horizontalOne.value = '#7628eb';
+  horizontalTwo.value = '#ba94cc';
 }
 
 function setDiagonalRightGradient() {    
   diagonalRightBackground.style.background = 
   `linear-gradient(to bottom right, ${diagonalRightOne.value}, ${diagonalRightTwo.value})`;
-    
+  diagonalRightBackground.style.transition = 'all 0.2s ease-in';  
   diagonalRightCSS.innerText = `background-image: linear-gradient(to bottom right, ${diagonalRightOne.value}, ${diagonalRightTwo.value});`;
 }
 
 function resetDiagonalRightGradient (){
-  diagonalRightBackground.style.background = 'white';
+  diagonalRightBackground.style.background = '';
   diagonalRightCSS.innerText = '';
+  diagonalRightOne.value = '#7628eb';
+  diagonalRightTwo.value = '#ba94cc';
 }
 
 function setDiagonalLeftGradient() {
@@ -81,18 +85,22 @@ function setDiagonalLeftGradient() {
 }
 
 function resetDiagonalLeftGradient () {
-  diagonalLeftBackground.style.background = 'white';
+  diagonalLeftBackground.style.background = '';
   diagonalLeftCSS.innerText = '';
+  diagonalLeftOne.value = '#7628eb';
+  diagonalLeftTwo.value = '#ba94cc';
 }
 
 function setVerticalGradient() {
   verticalBackground.style.background = 
   `linear-gradient(${verticalOne.value}, ${verticalTwo.value})`;
 
-    verticalCSS.innerText = `background-image: linear-gradient(${verticalOne.value}, ${verticalTwo.value});`;
+  verticalCSS.innerText = `background-image: linear-gradient(${verticalOne.value}, ${verticalTwo.value});`;
 }
 
 function resetVerticalGradient() {
-  verticalBackground.style.background = 'white';
+  verticalBackground.style.background = '';
   verticalCSS.innerText = '';
+  verticalOne.value = '#7628eb';
+  verticalTwo.value = '#ba94cc';
 }
